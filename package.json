@@ -2,10 +2,11 @@
   "name": "megacourses",
   "version": "0.1.0",
   "private": true,
+  "main": "server.js",
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
-    "start": "cross-env NODE_ENV=production node server.js",
+    "start": "node server.js",
     "export": "next export",
     "generate": "next generate"
   },
